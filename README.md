@@ -12,7 +12,10 @@ By projecting discrete tokens or chunks into high-dimensional geometric coordina
 The technical framework governing text and multimodal representation has transitioned from static, non-contextual vector lookups to bidirectional attentional networks, multi-task instruction-guided systems, and modern hyper-compressed nested manifolds.
 
 ```mermaid
-[Static Text Lookups (Word2Vec, 2013)] ───> [Bidirectional Contextual (BERT, 2018)] ───> [Siamese Bi-Encoders (SBERT, 2019)] ───> [Matryoshka Nesting (MRL, 2024-Present)](Immutable Word-Level Coordinates)           (Dynamic Sequence Hidden Projections)         (Fused Low-Latency Vector Retrival)          (Dynamic Vector Dimension Truncation)
+flowchart LR
+    A["Static Text Lookups (Word2Vec, 2013) (Immutable Word-Level Coordinates)"] --> B["Bidirectional Contextual (BERT, 2018) (Dynamic Sequence Hidden Projections)"]
+    B --> C["Siamese Bi-Encoders (SBERT, 2019) (Fused Low-Latency Vector Retrival)"]
+    C --> D["Matryoshka Nesting (MRL, 2024-Present) (Dynamic Vector Dimension Truncation)"]
 ```
 
 *   **The Static Word-Level Lookup Era (Word2Vec / GloVe, ~2013–2017)**
@@ -57,7 +60,17 @@ To deploy massive embedding vectors across resource-constrained edge systems or 
     *   *Significance:* Unlocks **Adaptive Vector Truncation** [INDEX: 18]. Developers can cleanly slice an embedding from 1536 dimensions down to 256 dimensions at runtime, saving up to 80% on vector database storage footprints while maintaining 98%+ of the baseline retrieval accuracy [INDEX: 18].
 
 ```mermaid
-Matryoshka Nested Dimension TruncationDense Vector Length: 1536 Dimensions ────────────────────────────────────────────────────────┐┌─────────────────────────┬──────────────────────────────────────────────────────────────────┐│ High-Yield Core Signals │ Long-Tail Auxiliary Fine Detail Nuances                          │└─────────────────────────┴──────────────────────────────────────────────────────────────────┘Sliced Vector: 256 Dim              (Truncated at Runtime to Save 80% Storage)
+flowchart TB
+    Title["Matryoshka Nested Dimension Truncation"]
+    Full["Dense Vector Length: 1536 Dimensions"]
+    Core["High-Yield Core Signals"]
+    Tail["Long-Tail Auxiliary Fine Detail Nuances"]
+    Sliced["Sliced Vector: 256 Dim (Truncated at Runtime to Save 80% Storage)"]
+
+    Title --> Full
+    Full --> Core
+    Full --> Tail
+    Core --> Sliced
 ```
 
 *   **Cross-Modal Joint-Embeddings (CLIP / SigLIP)**
