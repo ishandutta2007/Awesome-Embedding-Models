@@ -117,3 +117,14 @@ Before updating this workspace setup, let me know how you would like to proceed 
 * I can write a detailed technical explanation focusing on **how to configure Reciprocal Rank Fusion (RRF) algorithms** to merge sparse BM25 scores with dense semantic vectors smoothly at runtime [INDEX: 18].
 
 
+
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Embedding-Models&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chartrepos=ishandutta2007/Awesome-Embedding-Models&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chartrepos=ishandutta2007/Awesome-Embedding-Models&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chartrepos=ishandutta2007/Awesome-Embedding-Models&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
