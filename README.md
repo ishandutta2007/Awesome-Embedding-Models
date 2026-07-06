@@ -6,6 +6,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
+
 ## 🧠 Embedding Models in AI: History, Progression, Variants, & Applications
 
 An **Embedding Model** is a specialized foundational artificial intelligence architecture designed to map discrete, high-dimensional categorical data (such as textual phrases, complete source code repositories, visual patches, or user tracking vectors) into low-dimensional, continuous dense vector spaces [INDEX: 1, 10]. Unlike early machine learning pipelines that relied on rigid, sparse representations like One-Hot Encoding or TF-IDF—which scaled poorly and treated all words as orthogonally independent—embedding models compress attributes into deep semantic manifolds [INDEX: 18]. 
