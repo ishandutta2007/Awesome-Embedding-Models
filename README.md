@@ -1,5 +1,7 @@
-# Awesome-Embedding-Models
-## Embedding Models in AI: History, Progression, Variants, & Applications
+# 🚀 Awesome-Embedding-Models
+
+<p align="center"><img src="assets/banner.svg" alt="Banner"></p>
+## 🧠 Embedding Models in AI: History, Progression, Variants, & Applications
 
 An **Embedding Model** is a specialized foundational artificial intelligence architecture designed to map discrete, high-dimensional categorical data (such as textual phrases, complete source code repositories, visual patches, or user tracking vectors) into low-dimensional, continuous dense vector spaces [INDEX: 1, 10]. Unlike early machine learning pipelines that relied on rigid, sparse representations like One-Hot Encoding or TF-IDF—which scaled poorly and treated all words as orthogonally independent—embedding models compress attributes into deep semantic manifolds [INDEX: 18]. 
 
@@ -7,7 +9,7 @@ By projecting discrete tokens or chunks into high-dimensional geometric coordina
 
 ---
 
-## 1. The Macro Chronological Evolution
+## ⏳ 1. The Macro Chronological Evolution
 
 The technical framework governing text and multimodal representation has transitioned from static, non-contextual vector lookups to bidirectional attentional networks, multi-task instruction-guided systems, and modern hyper-compressed nested manifolds.
 
@@ -27,7 +29,7 @@ flowchart LR
 
 ---
 
-## 2. Core Architectural & Model Variants
+## 🏗️ 2. Core Architectural & Model Variants
 
 Embedding models are strictly categorized based on how parameters are cross-referenced, pooled, and structured during downstream similarity evaluations [INDEX: 18].
 
@@ -39,7 +41,7 @@ Embedding models are strictly categorized based on how parameters are cross-refe
 
 ---
 
-## 3. High-Capacity Dimension Scaling & MRL Losses
+## 📉 3. High-Capacity Dimension Scaling & MRL Losses
 
 To deploy massive embedding vectors across resource-constrained edge systems or high-throughput vector databases, modern engineering frameworks implement nested scaling constraints [INDEX: 18].
 
@@ -64,7 +66,7 @@ flowchart TB
 
 ---
 
-## 4. Production Engineering Challenges & Hardware Solutions
+## ⚙️ 4. Production Engineering Challenges & Hardware Solutions
 
 Deploying high-volume embedding models into commercial enterprise stacks introduces intense memory allocation caps and operational bottlenecks [INDEX: 18].
 
@@ -75,7 +77,7 @@ Deploying high-volume embedding models into commercial enterprise stacks introdu
 
 ---
 
-## 5. Frontier Real-World AI Industrial Applications
+## 🌍 5. Frontier Real-World AI Industrial Applications
 
 | Application | Year First Used | Paper Link | Description |
 | :--- | :--- | :--- | :--- |
@@ -85,7 +87,7 @@ Deploying high-volume embedding models into commercial enterprise stacks introdu
 
 ---
 
-## References
+## 📚 References
 1. Mikolov, T., et al. (2013). Distributed representations of words and phrases and their compositionality. *Advances in Neural Information Processing Systems (NeurIPS)*, 26, 3111-3119 [INDEX: 18].
 2. Devlin, J., et al. (2018). BERT: Pre-training of deep bidirectional transformers for language understanding. *arXiv preprint arXiv:1810.04805* [INDEX: 1, 18].
 3. Reimers, N., & Gurevych, I. (2019). Sentence-BERT: Sentence embeddings using Siamese BERT-networks. *Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP)*, 3982-3992 [INDEX: 18].
